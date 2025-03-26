@@ -386,7 +386,7 @@ background-color: #8606227e;
         display: flex;
         gap: 20px;
         font-size: 10px;
-        justify-content: end;
+        justify-content: center;
     
     }
     .posting{
