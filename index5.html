@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<style>
+         *{
+        font-family: "Tinos", serif;
+        font-weight: 500;
+        font-style: normal; 
+        padding: 0;
+      
+        margin: 0;
+    }
+    .container{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .nav{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        box-shadow: 0px 1px 10px red;
+    }
+    i{
+        position: absolute;
+        font-size: 30px;
+        color: red;
+        left: 10px;
+        top: 10px;
+    }
+    .text{
+        font-size: 40px;
+        color: red;
+        text-shadow: 0px 1px 10px rgb(61, 57, 57);
+    }
+    .first{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: black;
+    box-shadow: 0px 1px 10px black;
+}
+.line{
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid red;
+    box-shadow: 0px 1px 10px rgb(167, 5, 5);
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+   border-radius: 15px;
+   box-shadow: 0px 1px 10px red;
+}
+.uploads{
+    width: 60%;
+    height: auto;
+   margin: auto;
+  display: flex;
+ margin-top: 20px;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.last {
+    margin-top: 70px;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    box-shadow: 0px 1px 10px red;
+}
+a{
+  text-decoration: none;
+}
+
+.box1{
+    background: url(https://plus.unsplash.com/premium_photo-1661761077411-d50cba031848?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)gray;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box2{
+    background: url(https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box3{
+    background: url(https://images.unsplash.com/photo-1616400619175-5beda3a17896?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box4{
+    background: url(https://plus.unsplash.com/premium_photo-1671069848005-7231fc25703f?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box5{
+    background: url(https://plus.unsplash.com/premium_photo-1661767552224-ef72bb6b671f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box6{
+    background: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box7{
+    background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box8{
+    background: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box9{
+    background: url(https://images.unsplash.com/photo-1560785496-3c9d27877182?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box10{
+    background: url(https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?q=80&w=2083&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) gray;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.box>h2 , span {
+    color: white;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="nav">
+            <i id="backhome" class="fa-solid fa-arrow-left"></i>
+           <h1 class="text">Online classes</h1>
+        </div>
+        <img class="first" src="imges/download_prev_ui.png">
+        <h1 style="color: black;">Student Portal</h1>
+        <div class="line"></div>
+
+        <div class="uploads">
+            <div class="box box1">
+                <h2>web Develoer</h2>
+                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"><span >click here</span></a>
+            </div>
+            <div class="box box2">
+                <h2>Word press</h2>
+                <a href="https://www.youtube.com/watch?v=-6q3Rt1MTtk&list=PLjVLYmrlmjGcXDYZC67Us13PBD-3us9jB&pp=0gcJCWMEOCosWNin"><span >click here</span></a>
+            </div>
+            <div class="box box3">
+                <h2>Digital marketing</h2>
+                <a href="https://www.youtube.com/watch?v=XuUbLHIRyuM&pp=ygUeZGlnaXRhbCBtYXJrZXRpbmcgZnVsbCBjb3Vyc2Ug"><span >click here</span></a>
+            </div>
+            <div class="box box4">
+                <h2>Chyber Security</h2>
+                <a href="https://www.youtube.com/watch?v=lpa8uy4DyMo&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_"><span >click here</span></a>
+            </div>
+            <div class="box box5">
+                <h2>Editing</h2>
+                <a href="https://www.youtube.com/watch?v=-f2tzOZBn88&pp=ygUURWRpdGluZyBmdWxsIGNvdXJzZSDSBwkJvQCDtaTen9Q%3D"><span>click here</span></a>
+            </div>
+            <div class="box box6">
+                <h2>Photoshop</h2>
+                <a href="https://www.youtube.com/watch?v=ZbvLJ5XtPpA&pp=ygUWUGhvdG9zaG9wIGZ1bGwgY291cnNlIA%3D%3D"><span>click here</span></a>
+            </div>
+            <div class="box box7">
+                <h2>Graphic Designer</h2>
+                <a href="https://www.youtube.com/watch?v=e_dv7GBHka8&t=42s&pp=ygUdR3JhcGhpYyBEZXNpZ25lciBmdWxsIGNvdXJzZSA%3D"><span>click here</span></a>
+            </div>
+            <div class="box box8">
+                <h2>Trading</h2>
+                <a href="https://www.youtube.com/watch?v=a32z4F3i_kI&list=PL2oVBh5HjPI0B9vtmk8h4d0USLzTpuCaN"><span >click here</span></a>
+            </div>
+            <div class="box box9">
+                <h2>Business</h2>
+                <a href="https://www.youtube.com/watch?v=6x4DlPPZQU0&list=PL18rl3KEg0oIdg5pB2aX6KFaBjtN3V3OA"><span >click here</span></a>
+            </div>
+            <div class="box box10">
+                <h2>Mechanical Experts</h2>
+                <a href="https://www.youtube.com/watch?v=lz693FlqZAY&list=PLv2ZxY8SkeQU7nPLXhYpH-TA5I4ILyIug&pp=0gcJCWMEOCosWNin"><span>click here</span></a>
+            </div>
+           </div>
+
+    </div>
+    <div class="last">
+        <p> thanks! for coming our student portal </p>
+     </div>
+     <script>
+        document.getElementById("backhome").addEventListener("click" , function(){
+            window.location.href = "index2.html";
+        });
+     </script>
+</body>
+</html>
